@@ -13,7 +13,7 @@ h4{
   text-align: left;
 }
 #title {
-  background-color: #f2d974;
+  background-color: #ffc620;
   color: #fff;
 
 }
@@ -26,31 +26,50 @@ h4{
 
 
 p {
-  color: #8f8f8f;
+  color: #000;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+/* navigation bar */
+.container-fluid {
+  padding: 3% 15% 0 15%;
+  /* padding-bottom: 100px; */
+}
+
+.title-photo{
+  width:100%;
+  position: relative;
+  bottom:100px;
+}
+.nav-pic{
+  width:10%;
+}
+
+p {
+  color: #000;
   font-size: 1.5rem;
   line-height: 1.5;
 }
 
 /* navigation bar */
 .navbar {
-  padding: 2rem 0 4.5rem 0;
+  padding: 1% 10%;
 }
 
-.navbar-brand {
+/* .navbar-brand {
   font-family: 'Ubuntu', sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
-}
+} */
 
 .nav-item {
   padding: 0 16px;
   font-size: 1.2rem;
 }
-
-.project_picture{
-  width:100%;
-  padding: 3% 0;
-}
+/* .nav-link{
+  padding: 0 10px;
+} */
 #footer{
   padding: 7% 15%;
   background-color: #fff;
