@@ -1,0 +1,153 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+ background-color: #ffc620;
+}
+
+h1 {
+  font-family: 'Montserrat', serif;
+  font-size: 2.75rem;
+  line-height: 1.5;
+  color:#000;
+  /* text-align:center; */
+}
+h2{
+  padding-bottom: 30px;
+}
+h4{
+  text-align: left;
+}
+
+hr{
+  border-style:dotted none none;
+  border-width:10px;
+  border-color:grey;
+  width:5%;
+}
+
+
+.navv{
+  background-color:  #000;
+  box-shadow: 2px 10px 25px;
+
+}
+.title {
+  background-color: #ffc620;
+  color: #000;
+
+
+}
+
+
+.container-fluid {
+
+  padding: 3% 15% 0 15%;
+  color: #000;
+  /* padding-bottom: 100px; */
+}
+
+.title-photo{
+  width:100%;
+  position: relative;
+  bottom:100px;
+}
+.nav-pic{
+  width:10%;
+}
+
+p {
+  color: #000;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  /* font-family: 'Comic Sans MS',cursive */
+}
+
+/* navigation bar */
+.navbar {
+  padding: 1% 5%;
+
+}
+
+/* .navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+} */
+
+.nav-item {
+  padding: 0 16px;
+  font-size: 1.2rem;
+}
+/* .nav-link{
+  padding: 0 10px;
+} */
+#Project1
+{
+	/* margin-top:2.5%;
+	margin-left:1.5%; */
+  padding: 5% 15% 0;
+  text-align: left;
+  background-color: #ffc620;
+
+}
+
+#Project2
+{
+	/* margin-top:2.5%;
+	margin-left:1.5%; */
+  padding: 5% 15% 0;
+  text-align: left;
+ background-color: #ffc620;
+}
+
+#Project3
+{
+	/* margin-top:2.5%;
+	margin-left:1.5%; */
+  padding: 5% 15% 0;
+  text-align: left;
+background-color: #ffc620;
+}
+
+#Project4
+{
+	/* margin-top:2.5%;
+	margin-left:1.5%; */
+  padding: 5% 15% 0;
+  text-align: left;
+background-color: #ffc620;
+}
+
+.testimonial-text{
+  text-align: center;
+}
+
+
+
+#footer{
+  padding: 7% 15%;
+  background-color: #fff;
+  text-align:center;
+  height: 10%;
+}
+.foot-logo{
+  margin: 0 10px;
+}
+.button-foot{
+  border: none;
+  background-color:#fff;
+}
+@media (max-width:1080px) {
+  .floater-image{
+    display: none;
+  }
+  .floater-text{
+    position: static;
+    width: 100%
+  }
+  .desc-row-two{
+    float:right;
+  }
+}
